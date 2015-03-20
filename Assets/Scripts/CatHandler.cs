@@ -17,12 +17,12 @@ public class CatHandler : MonoBehaviour {
 	}
 
 	void OnMouseDown() {
-		gameObject.GetComponent<SpriteRenderer> ().sprite = touchedCat;
+		//gameObject.GetComponent<SpriteRenderer> ().sprite = touchedCat;
 		//NotificationCenter.DefaultCenter().PostNotification(this, "IncreaseScore", pointsToIncrement);
 		NotificationCenter.DefaultCenter().PostNotification(this, "IncreaseScore");
 	}
 
 	void OnMouseUp() {
-		gameObject.GetComponent<SpriteRenderer> ().sprite = normalCat;
+		//gameObject.GetComponent<SpriteRenderer> ().sprite = normalCat;
 	}
 }

@@ -3,6 +3,8 @@ using System.Collections;
 
 public class Bakeneko : MonoBehaviour {
 
+    public TextMesh scoreText;
+
 	private ulong score = 0;
 	private uint actualScoreIncrement = 1;
 
@@ -14,6 +16,7 @@ public class Bakeneko : MonoBehaviour {
 
 	void IncreaseScore(Notification notification){
 		score += actualScoreIncrement;
+        scoreText.text = score.ToString();
 		Debug.Log ("Score: "+ score);
 	}
 	
