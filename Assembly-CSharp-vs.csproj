@@ -50,7 +50,8 @@
      <Compile Include="Assets\Scripts\Bakeneko.cs" />
      <Compile Include="Assets\Scripts\CatHandler.cs" />
      <Compile Include="Assets\Scripts\MainCanvasActions.cs" />
-     <Compile Include="Assets\Scripts\NotificationCenter.cs" />
+     <Compile Include="Assets\Scripts\NotificationCenterActions.cs" />
+     <Compile Include="Assets\Scripts\ShopCanvasActions.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
