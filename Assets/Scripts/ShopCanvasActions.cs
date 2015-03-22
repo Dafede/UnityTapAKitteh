@@ -7,23 +7,23 @@ public class ShopCanvasActions : MonoBehaviour {
 
     public void OnClickCincoBolsita()
     {
-        bakeneko.GetComponent<Bakeneko>().numCincoBolsitas++;
+        bakeneko.GetComponent<Bakeneko>().NumCincoBolsitas++;
     }
     public void OnClickCincuentaBolsita()
     {
-        bakeneko.GetComponent<Bakeneko>().numCincuentaBolsitas++;
+        bakeneko.GetComponent<Bakeneko>().NumCincuentaBolsitas++;
     }
     public void OnClickCienBolsita()
     {
-        bakeneko.GetComponent<Bakeneko>().numCienBolsitas++;
+        bakeneko.GetComponent<Bakeneko>().NumCienBolsitas++;
     }
     public void OnClickDosCienBolsita()
     {
-        bakeneko.GetComponent<Bakeneko>().numDosCienBolsitas++;
+        bakeneko.GetComponent<Bakeneko>().NumDosCienBolsitas++;
     }
     public void OnClickDosCienCincuentaBolsita()
     {
-        bakeneko.GetComponent<Bakeneko>().numDosCienCincuentaBolsitas++;
+        bakeneko.GetComponent<Bakeneko>().NumDosCienCincuentaBolsitas++;
     }
 
 

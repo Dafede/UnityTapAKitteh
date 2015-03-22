@@ -19,7 +19,7 @@ public class CatHandler : MonoBehaviour {
 	void OnMouseDown() {
 		//gameObject.GetComponent<SpriteRenderer> ().sprite = touchedCat;
 		//NotificationCenter.DefaultCenter().PostNotification(this, "IncreaseScore", pointsToIncrement);
-		NotificationCenter.DefaultCenter().PostNotification(this, "IncreaseScore");
+        NotificationCenter.DefaultCenter().PostNotification(this, "IncreaseScoreTouch");
 	}
 
 	void OnMouseUp() {
