@@ -13,11 +13,20 @@ public class MainCanvasActions : MonoBehaviour {
     }
 
     public void OnClickShopButton() {
-        animator.SetBool("MoveCameraLeft",true);
-        
+        animator.SetBool("GoLeft", true);
+        animator.SetBool("GoRight", false);
+        Invoke("SetAllTheStuffToFalse", 0.25f); //Very very CRAP
     }
 
-    public void OnClickInfoButton() { 
+    public void OnClickInfoButton() {
+        animator.SetBool("GoRight", true);
+        animator.SetBool("GoLeft", false);
+        Invoke("SetAllTheStuffToFalse", 0.25f); //Very very CRAP
+    }
 
+    // Crapiest crap
+    private void SetAllTheStuffToFalse() {
+        animator.SetBool("GoRight", false);
+        animator.SetBool("GoLeft", false);
     }
 }
